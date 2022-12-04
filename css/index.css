@@ -67,13 +67,13 @@
         font-size: 1.5rem;
         line-height: 2rem;
     }
-    .left-box .menu-space ul li i{
+    .left-box .menu-space ul li .fa{
         text-decoration: none;
         color:var(--Y);
         text-shadow: 0px 3px 0px #000000;
         display: none;
     }
-    .left-box .menu-space ul li i:hover{
+    .left-box .menu-space ul li .fa:hover{
         background-color: var(--Y);
         color:var(--B1);
         text-shadow: none;
@@ -101,10 +101,10 @@
         font-size: 1.5rem;
     }
     
-    .left-box .menu-space ul li a{
+    .left-box .menu-space ul li a p{
         display: none;
     }
-    .left-box .menu-space ul li i{
+    .left-box .menu-space ul li .fa{
         display:block;
     }
 }
