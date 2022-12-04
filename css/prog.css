@@ -1,0 +1,36 @@
+.right-box .prog{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--B1);
+}
+    .right-box .prog .intro4{
+        width: 75%;
+        height: 50%;
+        background-color: var(--B2);
+        border-radius: 2.5rem;
+        border: 5px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-box .prog .intro4 h1{
+        color: var(--Y);
+        text-shadow: 0px 3px 0px #000000;
+        font-weight: bolder;
+        font-size: 3rem;
+    }
+
+@media screen and (max-width:1200px){
+    .right-box .prog .intro4 h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:900px){
+    .right-box .prog .intro4 h1{
+        font-size: 1rem;
+    }
+}
